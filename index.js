@@ -29,7 +29,7 @@ const server = http.createServer((req, res) => {
     hendle("404.html", 200, req, res);
 }
 });
-server.listen(port, () => {
+server.listen(PORT, () => {
     console.log(`server is running`)
 });
 
